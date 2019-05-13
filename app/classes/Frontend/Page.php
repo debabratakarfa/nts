@@ -2,7 +2,7 @@
 /**
  * NTS Frontend Page
  *
- *  @package Rippling
+ *  @package NTS
  */
 
 namespace NTS\Frontend;

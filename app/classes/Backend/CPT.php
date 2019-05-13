@@ -2,7 +2,7 @@
 /**
  * NTS CPT Registering
  *
- *  @package Rippling
+ *  @package NTS
  */
 
 namespace NTS\Backend;

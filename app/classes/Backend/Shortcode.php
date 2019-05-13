@@ -2,7 +2,7 @@
 /**
  * NTS Shortcode Rendering
  *
- *  @package Rippling
+ *  @package NTS
  */
 
 namespace NTS\Backend;

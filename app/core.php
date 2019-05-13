@@ -57,9 +57,9 @@ function deactivate() {
 }
 
 /**
- * Rippling Init Apps function
+ * NTS Init Apps function
  *
- * @return void Call function on Rippling Apps init.
+ * @return void Call function on NTS Apps init.
  */
 function nts_init() {
 	check_composer_install();
