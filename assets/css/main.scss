@@ -1,0 +1,34 @@
+.nts {
+  &__vote {
+    a {
+      -webkit-box-shadow: none;
+      -moz-box-shadow   : none;
+      box-shadow        : none;
+    }
+    &--total {
+      &::before {
+        font-family   : FontAwesome;
+        display       : inline-block;
+        padding-right : 6px;
+        vertical-align: middle;
+        content       : "\f681";
+      }
+    }
+    &--positive {
+      &::before {
+        font-family   : FontAwesome;
+        display       : inline-block;
+        padding-right : 6px;
+        vertical-align: middle;
+        content       : "\f0fe";
+      }
+    }
+    &--negative::before {
+      font-family   : FontAwesome;
+      display       : inline-block;
+      padding-right : 6px;
+      vertical-align: middle;
+      content       : "\f146";
+    }
+  }
+}
