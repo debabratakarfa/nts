@@ -4,14 +4,6 @@
   box-shadow        : none;
 }
 
-.nts__vote--total::before {
-  font-family   : FontAwesome;
-  display       : inline-block;
-  padding-right : 6px;
-  vertical-align: middle;
-  content       : "\f682";
-}
-
 .nts__vote--positive::before {
   font-family   : FontAwesome;
   display       : inline-block;
